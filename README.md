@@ -1,18 +1,16 @@
-# 🎶 Audio Splitter (Vocalizer)
+ Audio Splitter (Vocalizer)
 
 A Python GUI application that separates vocals and instrumentals from any audio file using the **Spleeter** library by Deezer.
 
-## ✨ Features
+ Features
 - Simple GUI built with `customtkinter`
 - Select an audio file (`.mp3` / `.wav`)
 - Choose an output directory
 - Separates vocals and background music
 - Uses **TensorFlow + Spleeter** for audio processing
 
-## 📸 Screenshots
-(Add screenshots of your app GUI here if you have them)
 
-## 🛠️ Installation
+ Installation
 Clone this repository:
 ```bash
 git clone https://github.com/your-username/audio-splitter-vocalizer.git
@@ -24,7 +22,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## ▶️ Usage
+Usage
 Run the app:
 ```bash
 python main.py
@@ -35,12 +33,12 @@ python main.py
 3. Click **"Separate Audio"**  
 4. Separated files (vocals + instrumentals) will be saved in the output folder  
 
-## 📦 Dependencies
+ Dependencies
 - [Spleeter](https://github.com/deezer/spleeter)
 - TensorFlow
 - customtkinter
 
-## 👩‍💻 Authors
+ Authors
 - Sneha Saini  
 - Sameeksha Verma
 
